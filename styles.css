@@ -16,7 +16,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url("<a href="https://ibb.co/Xy51VjZ"><img src="https://i.ibb.co/SQmbJ5X/background.jpg" alt="background" border="0"></a>");
+    background-image: url("https://i.ibb.co/SQmbJ5X/background.jpg");
     background-size: cover;
     background-position: center;
 }

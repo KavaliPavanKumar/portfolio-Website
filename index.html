@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/d10c8818e2.js" crossorigin="anonymous"></script>
+    <title>pavankumarkavali.com</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo"><span>P</span>avan.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web designer</p>
+                <h1>Hi, I'm <span>Pavan Kumar</span> form India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/Pavan.jpg" alt="">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="intro">As a passionate web developer, I specialize in creating dynamic and user-friendly websites and web applications. With skills in HTML, CSS, JavaScript, and frameworks like React and Angular, I turn ideas into functional, high-quality digital solutions. I stay updated with industry trends to ensure my work is innovative and effective. Eager to join a forward-thinking team, I aim to support the company's vision and growth through my web development expertise.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Data Science</span><br>Implementing AI&ML Models</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS Apps</li>
+                            <li><span>Data Analytics</span><br>Analyzing data and Making Predictions</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>01/2024-05/2024</span><br>Machine Learning Intern at Skill Dzire</li>
+                            <li><span>05/2023-08/2023</span><br>Data Analytics Intern at Smart Bridge</li>
+                            <li><span>06/2022-01/2023</span><br>Internship at Future Ready Talent</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>BTech from Kuppam Engineering College</li>
+                            <li><span>2018-2020</span><br>Jawahar Navodaya Vidyalaya</li>
+                            <li><span>2017-2018</span><br>Vijaya Bharathi EM High School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I offer professional web design services, creating visually stunning and user-friendly websites tailored to meet your unique needs and enhance your online presence.</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Data Science</h2>
+                    <p>Professional data science services deliver actionable insights and data-driven solutions to enhance decision-making and drive business growth.</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Expert app design services craft innovative and user-friendly mobile applications, ensuring seamless functionality and captivating aesthetics.</p>
+                    <a href="">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  portfolio    -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/images/portfolio.jpg" alt="">
+                    <div class="layer">
+                        <h3>Web Applications</h3>
+                        <p>The web application connects you to talented people around the world. Access it online now.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/datascence.jpg" alt="">
+                    <div class="layer">
+                        <h3>Machine Learning Projects</h3>
+                        <p>Experience the world of possibilities with our machine learning algorithms, connecting you to intelligent solutions. Dive in now.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/data-analytics.jpg" alt="">
+                    <div class="layer">
+                        <h3>Data Analytics Projects</h3>
+                        <p>Harness the potential of our data analytics project, connecting you to actionable insights that propel your business forward. Dive into discovery now.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> pavankumarkavali846@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 8179543523</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100090842894107"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/pavan_kava71767"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/__itsme__pavan__/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/kavali-pavan-kumar-84b98b241/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="/images/Pavan Kumar Resume.docx" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy Pavan Kumar. Made with Passion <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for(tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right=0;
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyublY6dFYaMhVckJwk0cWegZevQJXiXYimr31RQUQ3ATThpmhKJqgDENRDOjYzjw-U/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        const msg=document.getElementById('msg');
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response=>{
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function() {
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
